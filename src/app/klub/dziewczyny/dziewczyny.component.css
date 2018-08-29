@@ -1,0 +1,29 @@
+:host {
+  display: inline-block;
+  max-width: 130px;
+  margin: 10px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+.age {
+  background-color: red;
+  height: 10px;
+}
+.age div {
+  background-color: green;
+  height: 100%;
+}
+.status {
+  display: inline-block;
+
+  color: black;
+  font: bold 40px "Agency FB", serif;
+  text-decoration: line-through;
+
+}
+.status.active {
+  color: deeppink;
+  text-decoration: none;
+}
